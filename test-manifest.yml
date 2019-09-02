@@ -1,6 +1,6 @@
 ---
 applications:
-- name: bg-demo-webapi
+- name: bg-demo-webapi-test
   buildpacks:
    - dotnet_core_buildpack
   env:
@@ -8,4 +8,3 @@ applications:
   stack: cflinuxfs3
   instances: 1
   memory: 256M
-
